@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href={% static 'style.css' %} />
+   <title>Document</title>
+ </head>
+ <body>
+    <!-- Navbar -->
+   <nav class="navbar">
+     <!-- LOGO -->
+       <div class="logo"><a href="#" style="color: white">Ajay Blogs</a></div>
+     <!-- NAVIGATION MENU -->
+     <ul class="nav-links">
+       <!-- NAVIGATION MENUS -->
+       <div class="menu">
+         <li><a href="/admin">Login</a></li>
+       </div>
+     </ul>
+   </nav>
+    <!-- Contents -->
+    {% block content %}
+
+    {% endblock %}
+     <!-- Footer -->
+    <footer class="footer">
+        <p>Ajay Blogs &copy; 2022</p>
+    </footer>
+
+ </body>
+</html>

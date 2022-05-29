@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+    {% block content %}
+        {% for posts in BlogPosts %}
+            <div class="row">
+                <div class="leftcolumn">
+                    <div class="card">
+                        <h2>{{ posts.blog_title }}</h2>
+                        <h5>{{ posts.author_name }}, {{ posts.posted_time }}</h5>
+{#                        <div class="fakeimg" style="height:200px;">#}
+                            <img src="/{{ posts.blog_photo }}" alt="Blog 1" class="img-fluid">
+{#                        </div>#}
+                        <p>"{{ posts.content_blog }}"</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    {% endblock %}
