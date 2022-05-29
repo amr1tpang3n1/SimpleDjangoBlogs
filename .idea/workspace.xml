@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09a31cff-44d8-4678-9e27-907f35692483" name="Changes" comment="image upload done">
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    <list default="true" id="09a31cff-44d8-4678-9e27-907f35692483" name="Changes" comment="Final Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653809386397</updated>
-      <workItem from="1653809387526" duration="5309000" />
+      <workItem from="1653809387526" duration="5917000" />
     </task>
     <task id="LOCAL-00001" summary="image upload done">
       <created>1653813504566</created>
@@ -49,7 +49,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653813504566</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Final Commit">
+      <created>1653817386881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653817386881</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Final Commit">
+      <created>1653817393408</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653817393408</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -68,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="image upload done" />
-    <option name="LAST_COMMIT_MESSAGE" value="image upload done" />
+    <MESSAGE value="Final Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit" />
   </component>
 </project>
