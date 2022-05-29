@@ -9,4 +9,4 @@ class Posts(models.Model):
     blog_title = models.CharField(max_length=200)
     posted_time = str(datetime.datetime.now())
     content_blog = models.CharField(max_length=2000)
-    blog_photo = models.ImageField(upload_to="uploads/")
+    blog_photo = models.ImageField(upload_to="static/img/")
